@@ -4,6 +4,10 @@ import AppNavigator from './configs/routes/AppNavigator';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import {persistor, store} from './configs/redux';
+import setupAxios from './configs/apis/setupAxios';
+import axios from 'axios';
+
+setupAxios(axios, store);
 
 export default function App() {
   return (
