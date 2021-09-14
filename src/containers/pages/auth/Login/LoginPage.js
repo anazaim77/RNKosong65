@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
+import {Divider} from 'react-native-paper';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 class LoginPage extends Component {
   constructor(props) {
@@ -11,6 +13,8 @@ class LoginPage extends Component {
     return (
       <View>
         <Text> LoginPage </Text>
+        <Divider />
+        <Icon name={'home'} />
       </View>
     );
   }
