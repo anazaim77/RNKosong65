@@ -8,4 +8,8 @@ export default {
   row: {
     flexDirection: 'row',
   },
+  itemCentered: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 };
