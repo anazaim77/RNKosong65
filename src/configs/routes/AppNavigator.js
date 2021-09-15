@@ -14,7 +14,11 @@ const AppNavigator = () => {
         <Stack.Screen name={screens.mainMenu} component={BottomMainTab} />
         {screenProps.map((el, id) => {
           return (
-            <Stack.Screen key={id} options={{header: () => null}} {...el} />
+            <Stack.Screen
+              key={id}
+              // options={{header: () => null}}
+              {...el}
+            />
           );
         })}
       </Stack.Navigator>

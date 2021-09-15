@@ -3,12 +3,12 @@ import {View, Text} from 'react-native';
 import ButtonCustom from '../../molecules/input/ButtonCustom';
 import CustomTextInput from '../../molecules/input/CustomTextInput';
 
-const FormLogin = () => {
+const FormLogin = ({onSubmit}) => {
   return (
     <View>
       <CustomTextInput label={'Email'} />
       <CustomTextInput label={'Password'} />
-      <ButtonCustom label={'Login'} />
+      <ButtonCustom label={'Login'} onPress={onSubmit} />
     </View>
   );
 };

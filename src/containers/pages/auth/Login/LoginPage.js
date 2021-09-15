@@ -10,6 +10,7 @@ import {
   set_login,
   set_logout,
 } from '../../../../configs/redux/actions/authActions';
+import screens from '../../../../configs/routes/screens';
 import MainContainers from '../../../templates/MainContainers';
 import styles from './styles';
 
@@ -23,15 +24,8 @@ class LoginPage extends Component {
     };
   }
 
-  _click = () => {
-    const {isLoggedIn, login_sg, set_logout, set_login} = this.props;
-    if (isLoggedIn) set_logout();
-    else set_login();
-    this.setState(prev => ({
-      ...prev,
-      count: 2,
-    }));
-    login_sg({data1: 1, data2: 2});
+  _login = () => {
+    this.props.navigation.replace(screens.job_list);
   };
 
   render() {
@@ -41,7 +35,7 @@ class LoginPage extends Component {
       <MainContainers style={styles.wrapper}>
         <Text style={styles.textGreeting}>Hey, </Text>
         <Text style={styles.textGreeting}>Login Now. </Text>
-        <FormLogin />
+        <FormLogin onSubmit={this._login} />
       </MainContainers>
     );
   }
