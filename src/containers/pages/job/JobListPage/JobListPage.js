@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View} from 'react-native';
+import {Platform, View} from 'react-native';
 import {connect} from 'react-redux';
 import HeaderSearchFilter from '../../../../components/organisms/joblist/HeaderSearchFilter';
 import ScrollVertical from '../../../../components/organisms/scroller/ScrollVertical';
@@ -62,7 +62,10 @@ class JobListPage extends Component {
             contentContainerStyle={{
               paddingHorizontal: 13,
               marginTop: 13,
-              paddingBottom: 100,
+              paddingBottom: Platform.select({
+                ios: 100,
+                android: 150,
+              }),
             }}
             component={'CardJobList'}
             data={list.data || []}

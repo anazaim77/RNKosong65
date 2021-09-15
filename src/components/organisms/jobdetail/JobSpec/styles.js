@@ -22,11 +22,11 @@ const styles = StyleSheet.create({
     color: colour.TEXT.primary,
   },
   text: {
-    ...fonts.semi_12,
+    ...fonts.semi_14,
     color: colour.TEXT.grey,
   },
   textLink: {
-    ...fonts.med_12,
+    ...fonts.semi_12,
     color: colour.TEXT.primary,
     marginBottom: 8,
   },
