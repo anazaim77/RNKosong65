@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
+import {Paragraph, Title} from 'react-native-paper';
 import ButtonCustom from '../../../../components/molecules/input/ButtonCustom';
+import HeaderCompany from '../../../../components/organisms/jobdetail/HeaderCompany';
+import JobSpecification from '../../../../components/organisms/jobdetail/JobSpec';
 import MainContainers from '../../../templates/MainContainers';
+import styles from './styles';
 
 class JobDetailPage extends Component {
   constructor(props) {
@@ -13,11 +17,11 @@ class JobDetailPage extends Component {
   };
   render() {
     return (
-      <MainContainers>
-        <View>
-          <Text> JobDetailPage </Text>
-        </View>
-        <ButtonCustom label={'Back'} onPress={() => this._goBack()} />
+      <MainContainers style={styles.wrapper}>
+        <Text style={styles.label}>Company</Text>
+        <HeaderCompany />
+        <Text style={styles.label}>Job Specification</Text>
+        <JobSpecification />
       </MainContainers>
     );
   }
