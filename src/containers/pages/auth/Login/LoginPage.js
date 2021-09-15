@@ -1,16 +1,6 @@
 import React, {Component} from 'react';
-import {
-  View,
-  Text,
-  Button,
-  SafeAreaView,
-  ScrollView,
-  Alert,
-} from 'react-native';
-import {Divider} from 'react-native-paper';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {Alert, Text} from 'react-native';
 import {connect} from 'react-redux';
-import {fonts} from '../../../../assets/styles';
 import FormLogin from '../../../../components/organisms/FormLogin/FormLogin';
 import {
   login_sg,
@@ -21,7 +11,7 @@ import screens from '../../../../configs/routes/screens';
 import MainContainers from '../../../templates/MainContainers';
 import styles from './styles';
 
-const dummy = {
+export const dummy_login = {
   email: 'test@mail.id',
   password: 'asd123',
 };
@@ -33,20 +23,18 @@ class LoginPage extends Component {
   }
 
   _login = data => {
-    console.log(`data`, data);
-    if (
-      data.email.toLowerCase() !== dummy.email.toLowerCase() ||
-      data.password.toLowerCase() !== dummy.password.toLowerCase()
-    ) {
-      Alert.alert('Peringatan', 'email atau password salah');
-    } else {
-      this.props.navigation.replace(screens.job_list);
-    }
+    // console.log(`data`, data);
+    // if (
+    //   data.email.toLowerCase() !== dummy_login.email.toLowerCase() ||
+    //   data.password.toLowerCase() !== dummy_login.password.toLowerCase()
+    // ) {
+    //   Alert.alert('Peringatan', 'email atau password salah');
+    // } else {
+    this.props.navigation.replace(screens.job_list);
+    // }
   };
 
   render() {
-    const {isLoggedIn} = this.props;
-
     return (
       <MainContainers style={styles.wrapper}>
         <Text style={styles.textGreeting}>Hey, </Text>

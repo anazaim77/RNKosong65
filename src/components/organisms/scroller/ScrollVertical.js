@@ -77,7 +77,7 @@ const ScrollVertical = ({
       onEndReachedThreshold={0.1}
       onMomentumScrollEnd={() => {
         if (onScroll.current === true) {
-          console.log('masuk sini');
+          // console.log('masuk sini');
           loadMore();
         }
         onScroll.current = false;

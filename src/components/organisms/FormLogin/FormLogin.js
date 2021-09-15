@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {View, Text} from 'react-native';
+import {dummy_login} from '../../../containers/pages/auth/Login/LoginPage';
 import ButtonCustom from '../../molecules/input/ButtonCustom';
 import CustomTextInput from '../../molecules/input/CustomTextInput';
 
@@ -17,12 +18,14 @@ const FormLogin = ({onSubmit}) => {
     <View>
       <CustomTextInput
         placeholder={'Email'}
-        value={params.email}
+        value={params.email || dummy_login.email}
+        // value={params.email}
         onChangeText={text => onChangeParams('email', text)}
       />
       <CustomTextInput
         placeholder={'Password'}
-        value={params.password}
+        value={params.password || dummy_login.password}
+        // value={params.password}
         onChangeText={text => onChangeParams('password', text)}
         secureTextEntry={true}
       />

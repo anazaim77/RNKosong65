@@ -5,19 +5,21 @@ import styles from './styles';
 
 const Row = ({title, desc}) => (
   <React.Fragment>
-    <Text style={styles.text}>Wraclow</Text>
-    <Text style={styles.textLink}>Go To Website</Text>
-    <Text>{desc}</Text>
+    <Text style={styles.text}>{title}</Text>
+    <Text style={styles.textLink}>{desc}</Text>
   </React.Fragment>
 );
 
-const JobSpecification = () => {
+const JobSpecification = ({data}) => {
   return (
     <Card style={{borderRadius: 8, marginBottom: 13}}>
       <View style={styles.wrapper}>
-        <Row />
-        <Row />
-        <Row />
+        <Row title={'Title'} desc={data?.title} />
+        <Row
+          title={'Full Time'}
+          desc={data?.type == 'Full Time' ? 'Yes' : 'No'}
+        />
+        <Row title={'Description'} desc={data?.description} />
       </View>
     </Card>
   );

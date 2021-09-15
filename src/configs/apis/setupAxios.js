@@ -1,13 +1,15 @@
 // import axios from 'axios';
 
 export default setupAxios = (axios, store) => {
-  axios.defaults.baseURL = `'https://jsonplaceholder.typicode.com/`;
+  // axios.defaults.baseURL = `'https://jsonplaceholder.typicode.com/`;
+  axios.defaults.baseURL = `http://dev3.dansmultipro.co.id/`;
   axios.defaults.headers.post['Content-Type'] = 'application/json';
   axios.interceptors.request.use(
     config => {
       const {authToken} = store.getState().authReducer;
       if (authToken) config.headers.Authorization = `${authToken}`;
       config.headers.post['Access-Control-Allow-Origin'] = '*';
+      console.log(`config`, config);
       return config;
     },
     err => Promise.reject(err),

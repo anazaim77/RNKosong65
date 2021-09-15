@@ -13,7 +13,7 @@ import ButtonCustom from '../../../molecules/input/ButtonCustom';
 import CustomTextInput from '../../../molecules/input/CustomTextInput';
 import styles from './styles';
 
-const HeaderSearchFilter = ({onSubmit}) => {
+const HeaderSearchFilter = ({onFetch}) => {
   const [searchQuery, setSearchQuery] = React.useState('');
   const [open, setOpen] = useState(false);
   const _handleOpen = () => {
@@ -30,11 +30,13 @@ const HeaderSearchFilter = ({onSubmit}) => {
   };
   const _handleSubmit = () => {
     console.log(`params`, params);
+    onFetch({params, refresh: true});
     setParams({
       description: '',
       location: '',
       full_time: false,
     });
+    _handleOpen();
   };
   return (
     <View style={styles.wrapper}>

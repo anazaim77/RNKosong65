@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   textLink: {
     ...fonts.med_12,
     color: colour.TEXT.primary,
+    marginBottom: 8,
   },
 });
 export default styles;
