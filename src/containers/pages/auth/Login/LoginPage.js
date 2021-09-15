@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Alert, Text} from 'react-native';
+import {Paragraph} from 'react-native-paper';
 import {connect} from 'react-redux';
 import FormLogin from '../../../../components/organisms/FormLogin/FormLogin';
 import {
@@ -24,14 +25,14 @@ class LoginPage extends Component {
 
   _login = data => {
     // console.log(`data`, data);
-    // if (
-    //   data.email.toLowerCase() !== dummy_login.email.toLowerCase() ||
-    //   data.password.toLowerCase() !== dummy_login.password.toLowerCase()
-    // ) {
-    //   Alert.alert('Peringatan', 'email atau password salah');
-    // } else {
-    this.props.navigation.replace(screens.job_list);
-    // }
+    if (
+      data.email.toLowerCase() !== dummy_login.email.toLowerCase() ||
+      data.password.toLowerCase() !== dummy_login.password.toLowerCase()
+    ) {
+      Alert.alert('Peringatan', 'email atau password salah');
+    } else {
+      this.props.navigation.replace(screens.job_list);
+    }
   };
 
   render() {
@@ -40,6 +41,9 @@ class LoginPage extends Component {
         <Text style={styles.textGreeting}>Hey, </Text>
         <Text style={styles.textGreeting}>Login Now. </Text>
         <FormLogin onSubmit={this._login} />
+
+        <Paragraph>{'email => test@mail.id'}</Paragraph>
+        <Paragraph>{'password => asd123'}</Paragraph>
       </MainContainers>
     );
   }
