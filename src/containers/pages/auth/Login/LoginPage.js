@@ -3,6 +3,7 @@ import {View, Text, Button} from 'react-native';
 import {Divider} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {connect} from 'react-redux';
+import {fonts} from '../../../../assets/styles';
 import {
   login_sg,
   set_login,
@@ -41,6 +42,7 @@ class LoginPage extends Component {
         <Icon name={'home'} />
         <Button title={'click me'} onPress={this._click} />
         <Text>isLoggedIn : {isLoggedIn.toString()}</Text>
+        <Text style={fonts.bold_20}>isLoggedIn : {isLoggedIn.toString()}</Text>
       </View>
     );
   }
