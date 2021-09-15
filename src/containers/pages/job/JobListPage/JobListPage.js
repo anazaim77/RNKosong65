@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
-import ButtonCustom from '../../../../components/molecules/input/ButtonCustom';
+import {View} from 'react-native';
 import HeaderSearchFilter from '../../../../components/organisms/joblist/HeaderSearchFilter';
 import ScrollVertical from '../../../../components/organisms/scroller/ScrollVertical';
 import screens from '../../../../configs/routes/screens';

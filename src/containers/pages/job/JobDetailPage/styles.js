@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   wrapper: {
     // minHeight: styling.heightScreen,
     paddingHorizontal: 15,
+    paddingTop: 13,
     // paddingTop: 150,
   },
   label: {

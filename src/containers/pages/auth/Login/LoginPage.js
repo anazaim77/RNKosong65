@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
-import {View, Text, Button, SafeAreaView, ScrollView} from 'react-native';
+import {
+  View,
+  Text,
+  Button,
+  SafeAreaView,
+  ScrollView,
+  Alert,
+} from 'react-native';
 import {Divider} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {connect} from 'react-redux';
@@ -14,18 +21,27 @@ import screens from '../../../../configs/routes/screens';
 import MainContainers from '../../../templates/MainContainers';
 import styles from './styles';
 
+const dummy = {
+  email: 'test@mail.id',
+  password: 'asd123',
+};
+
 class LoginPage extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      // count: 1,
-      // min: 1,
-      // max: 1,
-    };
+    this.state = {};
   }
 
-  _login = () => {
-    this.props.navigation.replace(screens.job_list);
+  _login = data => {
+    console.log(`data`, data);
+    if (
+      data.email.toLowerCase() !== dummy.email.toLowerCase() ||
+      data.password.toLowerCase() !== dummy.password.toLowerCase()
+    ) {
+      Alert.alert('Peringatan', 'email atau password salah');
+    } else {
+      this.props.navigation.replace(screens.job_list);
+    }
   };
 
   render() {
