@@ -21,13 +21,13 @@ const themeInput = {
   },
 };
 
-const ButtonCustom = ({label, ...other}) => {
+const ButtonCustom = ({label, style, labelStyle, ...other}) => {
   return (
     <Button
       //   icon="camera"
       mode="contained"
-      style={styles.wrapper}
-      labelStyle={styles.text}
+      style={[styles.wrapper, style]}
+      labelStyle={[styles.text, labelStyle]}
       theme={themeInput}
       //   onPress={() => console.log('Pressed')}
       {...other}>

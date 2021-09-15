@@ -8,11 +8,9 @@ class JobDetailPage extends Component {
     super(props);
     this.state = {};
   }
-
   _goBack = () => {
     this.props.navigation.pop();
   };
-
   render() {
     return (
       <MainContainers>

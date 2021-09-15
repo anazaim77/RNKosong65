@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
 import ButtonCustom from '../../../../components/molecules/input/ButtonCustom';
+import HeaderSearchFilter from '../../../../components/organisms/joblist/HeaderSearchFilter';
 import screens from '../../../../configs/routes/screens';
 import MainContainers from '../../../templates/MainContainers';
 
@@ -16,9 +17,9 @@ class JobListPage extends Component {
 
   render() {
     return (
-      <MainContainers>
+      <MainContainers noScroll={true}>
         <View>
-          <Text> JobListPage </Text>
+          <HeaderSearchFilter />
         </View>
         <ButtonCustom
           label={'Detail'}

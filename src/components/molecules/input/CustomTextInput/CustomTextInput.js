@@ -20,16 +20,17 @@ const themeInput = {
   },
 };
 
-const CustomTextInput = ({label}) => {
+const CustomTextInput = ({label, style, ...other}) => {
   const [text, setText] = useState('');
   return (
     <TextInput
       label={label}
       value={text}
       mode={'outlined'}
-      style={styles.wrapper}
+      style={[styles.wrapper, style]}
       theme={themeInput}
       onChangeText={text => setText(text)}
+      {...other}
     />
   );
 };
