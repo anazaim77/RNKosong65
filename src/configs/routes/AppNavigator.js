@@ -13,7 +13,9 @@ const AppNavigator = () => {
       <Stack.Navigator initialRouteName={screens.login}>
         <Stack.Screen name={screens.mainMenu} component={BottomMainTab} />
         {screenProps.map((el, id) => {
-          return <Stack.Screen key={id} {...el} />;
+          return (
+            <Stack.Screen key={id} options={{header: () => null}} {...el} />
+          );
         })}
       </Stack.Navigator>
     </NavigationContainer>

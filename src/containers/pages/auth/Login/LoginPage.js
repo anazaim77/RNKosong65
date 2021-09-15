@@ -1,14 +1,17 @@
 import React, {Component} from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text, Button, SafeAreaView, ScrollView} from 'react-native';
 import {Divider} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {connect} from 'react-redux';
 import {fonts} from '../../../../assets/styles';
+import FormLogin from '../../../../components/organisms/FormLogin/FormLogin';
 import {
   login_sg,
   set_login,
   set_logout,
 } from '../../../../configs/redux/actions/authActions';
+import MainContainers from '../../../templates/MainContainers';
+import styles from './styles';
 
 class LoginPage extends Component {
   constructor(props) {
@@ -34,16 +37,12 @@ class LoginPage extends Component {
   render() {
     const {isLoggedIn} = this.props;
 
-    // console.log(`this.props`, this.props);
     return (
-      <View>
-        <Text> LoginPage </Text>
-        <Divider />
-        <Icon name={'home'} />
-        <Button title={'click me'} onPress={this._click} />
-        <Text>isLoggedIn : {isLoggedIn.toString()}</Text>
-        <Text style={fonts.bold_20}>isLoggedIn : {isLoggedIn.toString()}</Text>
-      </View>
+      <MainContainers style={styles.wrapper}>
+        <Text style={styles.textGreeting}>Hey, </Text>
+        <Text style={styles.textGreeting}>Login Now. </Text>
+        <FormLogin />
+      </MainContainers>
     );
   }
 }
