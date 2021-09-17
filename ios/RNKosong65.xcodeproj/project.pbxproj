@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* testdansrnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* testdansrnTests.m */; };
+		00E356F31AD99517003FC87E /* RNKosong65Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNKosong65Tests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -15,8 +15,8 @@
 		365D7301D2A74C21A8501C39 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0441A9081C70428DB1212DB9 /* Poppins-Bold.ttf */; };
 		6D56468F203546D8A0C31B41 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81010A04830743E4BD635EE5 /* Poppins-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CE7A48427DF65C2B8B260665 /* libPods-testdansrn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5074CAC49A1DDB0C20A4C229 /* libPods-testdansrn.a */; };
-		D36A0F713B6B69AEE95440B6 /* libPods-testdansrn-testdansrnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEEF9143DE2699C3DCE99D /* libPods-testdansrn-testdansrnTests.a */; };
+		CE7A48427DF65C2B8B260665 /* libPods-RNKosong65.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5074CAC49A1DDB0C20A4C229 /* libPods-RNKosong65.a */; };
+		D36A0F713B6B69AEE95440B6 /* libPods-RNKosong65-RNKosong65Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEEF9143DE2699C3DCE99D /* libPods-RNKosong65-RNKosong65Tests.a */; };
 		D70EAC1AEA88407596630818 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBCE07EABB4EE1A30BEEC6 /* Poppins-Light.ttf */; };
 		F9F5957CD6444B93A1B7CDC5 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C967CCA0719749F6BE1DF845 /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
@@ -27,35 +27,35 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = testdansrn;
+			remoteInfo = RNKosong65;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* testdansrnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testdansrnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RNKosong65Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNKosong65Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* testdansrnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testdansrnTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RNKosong65Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNKosong65Tests.m; sourceTree = "<group>"; };
 		0441A9081C70428DB1212DB9 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		0988DFE75809DA112322EDC9 /* Pods-testdansrn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdansrn.release.xcconfig"; path = "Target Support Files/Pods-testdansrn/Pods-testdansrn.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* testdansrn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testdansrn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = testdansrn/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = testdansrn/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = testdansrn/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = testdansrn/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = testdansrn/main.m; sourceTree = "<group>"; };
+		0988DFE75809DA112322EDC9 /* Pods-RNKosong65.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKosong65.release.xcconfig"; path = "Target Support Files/Pods-RNKosong65/Pods-RNKosong65.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RNKosong65.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNKosong65.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNKosong65/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNKosong65/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNKosong65/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNKosong65/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNKosong65/main.m; sourceTree = "<group>"; };
 		1D5D1878922346F5BA0918E6 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		24412F43EEFE4C3B95F7C965 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		2D64841658DF48AEB250F15E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		2D670AAE9BAC4F259DD0155F /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		2E996D1CC6A9FC02250B2707 /* Pods-testdansrn-testdansrnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdansrn-testdansrnTests.debug.xcconfig"; path = "Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E996D1CC6A9FC02250B2707 /* Pods-RNKosong65-RNKosong65Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKosong65-RNKosong65Tests.debug.xcconfig"; path = "Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FFBCE07EABB4EE1A30BEEC6 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
-		5074CAC49A1DDB0C20A4C229 /* libPods-testdansrn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testdansrn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5074CAC49A1DDB0C20A4C229 /* libPods-RNKosong65.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNKosong65.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524197ED5BAB4D93BF320600 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		62FC2B22DD61A7FF0B2F9044 /* Pods-testdansrn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdansrn.debug.xcconfig"; path = "Target Support Files/Pods-testdansrn/Pods-testdansrn.debug.xcconfig"; sourceTree = "<group>"; };
+		62FC2B22DD61A7FF0B2F9044 /* Pods-RNKosong65.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKosong65.debug.xcconfig"; path = "Target Support Files/Pods-RNKosong65/Pods-RNKosong65.debug.xcconfig"; sourceTree = "<group>"; };
 		7F0870560F0C4DEF808E0BDE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		81010A04830743E4BD635EE5 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testdansrn/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81EEEF9143DE2699C3DCE99D /* libPods-testdansrn-testdansrnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testdansrn-testdansrnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNKosong65/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81EEEF9143DE2699C3DCE99D /* libPods-RNKosong65-RNKosong65Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNKosong65-RNKosong65Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8812FBECB05549729835A7A4 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		88C479160CCA4EFF868790E8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		AE015E46BDFE40858BF032CD /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EF1BF83B524D4F8BB43B450C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		F47672DC5C5A4828BF3F61C5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		F6B3D1431644E7A154299F00 /* Pods-testdansrn-testdansrnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdansrn-testdansrnTests.release.xcconfig"; path = "Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B3D1431644E7A154299F00 /* Pods-RNKosong65-RNKosong65Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKosong65-RNKosong65Tests.release.xcconfig"; path = "Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA6BFBCE1273463A92965575 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		FA879CF026F089AA009243DF /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		FA879CF126F089AA009243DF /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36A0F713B6B69AEE95440B6 /* libPods-testdansrn-testdansrnTests.a in Frameworks */,
+				D36A0F713B6B69AEE95440B6 /* libPods-RNKosong65-RNKosong65Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +101,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7A48427DF65C2B8B260665 /* libPods-testdansrn.a in Frameworks */,
+				CE7A48427DF65C2B8B260665 /* libPods-RNKosong65.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* testdansrnTests */ = {
+		00E356EF1AD99517003FC87E /* RNKosong65Tests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* testdansrnTests.m */,
+				00E356F21AD99517003FC87E /* RNKosong65Tests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = testdansrnTests;
+			path = RNKosong65Tests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -125,7 +125,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* testdansrn */ = {
+		13B07FAE1A68108700A75B9A /* RNKosong65 */ = {
 			isa = PBXGroup;
 			children = (
 				FA879CEF26F089AA009243DF /* Fonts */,
@@ -136,15 +136,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = testdansrn;
+			name = RNKosong65;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5074CAC49A1DDB0C20A4C229 /* libPods-testdansrn.a */,
-				81EEEF9143DE2699C3DCE99D /* libPods-testdansrn-testdansrnTests.a */,
+				5074CAC49A1DDB0C20A4C229 /* libPods-RNKosong65.a */,
+				81EEEF9143DE2699C3DCE99D /* libPods-RNKosong65-RNKosong65Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* testdansrn */,
+				13B07FAE1A68108700A75B9A /* RNKosong65 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* testdansrnTests */,
+				00E356EF1AD99517003FC87E /* RNKosong65Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9ED41CD9E0DBDE8109B8F41D /* Pods */,
@@ -175,8 +175,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* testdansrn.app */,
-				00E356EE1AD99517003FC87E /* testdansrnTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RNKosong65.app */,
+				00E356EE1AD99517003FC87E /* RNKosong65Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,10 +184,10 @@
 		9ED41CD9E0DBDE8109B8F41D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				62FC2B22DD61A7FF0B2F9044 /* Pods-testdansrn.debug.xcconfig */,
-				0988DFE75809DA112322EDC9 /* Pods-testdansrn.release.xcconfig */,
-				2E996D1CC6A9FC02250B2707 /* Pods-testdansrn-testdansrnTests.debug.xcconfig */,
-				F6B3D1431644E7A154299F00 /* Pods-testdansrn-testdansrnTests.release.xcconfig */,
+				62FC2B22DD61A7FF0B2F9044 /* Pods-RNKosong65.debug.xcconfig */,
+				0988DFE75809DA112322EDC9 /* Pods-RNKosong65.release.xcconfig */,
+				2E996D1CC6A9FC02250B2707 /* Pods-RNKosong65-RNKosong65Tests.debug.xcconfig */,
+				F6B3D1431644E7A154299F00 /* Pods-RNKosong65-RNKosong65Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -247,9 +247,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* testdansrnTests */ = {
+		00E356ED1AD99517003FC87E /* RNKosong65Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "testdansrnTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNKosong65Tests" */;
 			buildPhases = (
 				8C9EC11A525DDBAA978D46F7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -263,14 +263,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = testdansrnTests;
-			productName = testdansrnTests;
-			productReference = 00E356EE1AD99517003FC87E /* testdansrnTests.xctest */;
+			name = RNKosong65Tests;
+			productName = RNKosong65Tests;
+			productReference = 00E356EE1AD99517003FC87E /* RNKosong65Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* testdansrn */ = {
+		13B07F861A680F5B00A75B9A /* RNKosong65 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "testdansrn" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNKosong65" */;
 			buildPhases = (
 				5C4E29C846632CA2101A291F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -285,9 +285,9 @@
 			);
 			dependencies = (
 			);
-			name = testdansrn;
-			productName = testdansrn;
-			productReference = 13B07F961A680F5B00A75B9A /* testdansrn.app */;
+			name = RNKosong65;
+			productName = RNKosong65;
+			productReference = 13B07F961A680F5B00A75B9A /* RNKosong65.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "testdansrn" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNKosong65" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,8 +320,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* testdansrn */,
-				00E356ED1AD99517003FC87E /* testdansrnTests */,
+				13B07F861A680F5B00A75B9A /* RNKosong65 */,
+				00E356ED1AD99517003FC87E /* RNKosong65Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,7 +380,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testdansrn-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNKosong65-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -393,15 +393,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn/Pods-testdansrn-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65/Pods-RNKosong65-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn/Pods-testdansrn-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65/Pods-RNKosong65-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testdansrn/Pods-testdansrn-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNKosong65/Pods-RNKosong65-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C9EC11A525DDBAA978D46F7 /* [CP] Check Pods Manifest.lock */ = {
@@ -419,7 +419,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testdansrn-testdansrnTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNKosong65-RNKosong65Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,15 +432,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6E4FC0B4534D6D73DB9D4E2 /* [CP] Embed Pods Frameworks */ = {
@@ -449,15 +449,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testdansrn-testdansrnTests/Pods-testdansrn-testdansrnTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNKosong65-RNKosong65Tests/Pods-RNKosong65-RNKosong65Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFD724014D7354E3B06FA8DB /* [CP] Embed Pods Frameworks */ = {
@@ -466,15 +466,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn/Pods-testdansrn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65/Pods-RNKosong65-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testdansrn/Pods-testdansrn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNKosong65/Pods-RNKosong65-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testdansrn/Pods-testdansrn-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNKosong65/Pods-RNKosong65-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -503,7 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* testdansrnTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RNKosong65Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +521,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* testdansrn */;
+			target = 13B07F861A680F5B00A75B9A /* RNKosong65 */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -529,14 +529,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E996D1CC6A9FC02250B2707 /* Pods-testdansrn-testdansrnTests.debug.xcconfig */;
+			baseConfigurationReference = 2E996D1CC6A9FC02250B2707 /* Pods-RNKosong65-RNKosong65Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = testdansrnTests/Info.plist;
+				INFOPLIST_FILE = RNKosong65Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -550,17 +550,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testdansrn.app/testdansrn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNKosong65.app/RNKosong65";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B3D1431644E7A154299F00 /* Pods-testdansrn-testdansrnTests.release.xcconfig */;
+			baseConfigurationReference = F6B3D1431644E7A154299F00 /* Pods-RNKosong65-RNKosong65Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = testdansrnTests/Info.plist;
+				INFOPLIST_FILE = RNKosong65Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,19 +574,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testdansrn.app/testdansrn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNKosong65.app/RNKosong65";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62FC2B22DD61A7FF0B2F9044 /* Pods-testdansrn.debug.xcconfig */;
+			baseConfigurationReference = 62FC2B22DD61A7FF0B2F9044 /* Pods-RNKosong65.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = testdansrn/Info.plist;
+				INFOPLIST_FILE = RNKosong65/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,7 +597,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = testdansrn;
+				PRODUCT_NAME = RNKosong65;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -606,12 +606,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0988DFE75809DA112322EDC9 /* Pods-testdansrn.release.xcconfig */;
+			baseConfigurationReference = 0988DFE75809DA112322EDC9 /* Pods-RNKosong65.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = testdansrn/Info.plist;
+				INFOPLIST_FILE = RNKosong65/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,7 +622,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = testdansrn;
+				PRODUCT_NAME = RNKosong65;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -754,7 +754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "testdansrnTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNKosong65Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -763,7 +763,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "testdansrn" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNKosong65" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -772,7 +772,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "testdansrn" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNKosong65" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

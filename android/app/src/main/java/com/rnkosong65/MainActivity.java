@@ -1,4 +1,4 @@
-package com.testdansrn;
+package com.rnkosong65;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "testdansrn";
+    return "RNKosong65";
   }
 
   @Override
